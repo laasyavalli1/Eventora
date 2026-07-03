@@ -296,7 +296,7 @@ const Home = () => {
                                             {event.ticketPrice === 0 ? 'FREE' : `₹${event.ticketPrice}`}
                                         </span>
                                         <Link
-                                            to={`/event/${event._id}`}
+                                            to={`/events/${event._id}`}
                                             className="px-5 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold text-sm hover:opacity-90 transition-opacity shadow-md"
                                         >
                                             View Details
